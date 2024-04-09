@@ -1,2 +1,4 @@
-package opgave01;public class Opgave01 {
+package opgave01;
+
+public class Opgave01 {
 }
