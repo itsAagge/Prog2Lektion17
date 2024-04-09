@@ -15,7 +15,7 @@ class LinkedStackTest {
 
     @BeforeEach
     void initialize() {
-        sut = new LinkedStack<>();
+        sut = new ArrayListStack<>();
     }
 
     @Test
