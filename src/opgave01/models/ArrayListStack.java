@@ -14,7 +14,7 @@ public class ArrayListStack<E> implements StackEaaa<E> {
     public E pop() {
         throwIfEmpty();
         E element = stack.getLast();
-        stack.remove(element);
+        stack.removeLast();
         return element;
     }
 
@@ -43,5 +43,9 @@ public class ArrayListStack<E> implements StackEaaa<E> {
         if (isEmpty()) {
             throw new NoSuchElementException("Stack is empty");
         }
+    }
+
+    public String toString() {
+        return stack.toString();
     }
 }
